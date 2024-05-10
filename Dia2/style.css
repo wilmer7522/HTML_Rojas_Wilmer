@@ -1,0 +1,13 @@
+body {
+    background-color: cadetblue;
+}
+
+.habilidades {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: oblique;
+    font-weight: bold;
+}
+
