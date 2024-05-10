@@ -1,0 +1,56 @@
+body {
+    background-color: rgba(22, 29, 16, 0.925);
+}
+
+/*letras*/
+.letras {
+    color: white;
+    font-style: oblique;
+    text-align: center;
+}
+
+
+
+.imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    --border-size: 5px;
+    height: 250px;
+    border: var(--border-size) solid black;
+    border-radius: 10%;
+    /*border-image-source: url();*/
+}
+
+.video {
+    background-color: crimson;
+    color: black;
+    padding: 5px 10px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+/*boton de ir a pagina moto*/
+.moto {
+    background-color: rgb(255, 115, 0);
+    color: white;
+    padding: 5px 10px;/*tamaño del color de fondo*/
+    text-decoration: none;/*eliminar el subrayado del texto*/
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1% 50% 1% 50%;/*bordes redondeados de boton 1,2,4,3*/
+
+
+
+}
+.video:hover {
+    background-color: yellow;/*color de fondo de los botones cuando se pasa el cursor*/
+}
+
+.moto:hover {
+    background-color: rgb(4, 99, 17);
+}
