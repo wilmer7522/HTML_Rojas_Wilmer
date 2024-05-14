@@ -2,12 +2,106 @@ body {
     background-color: cadetblue;
 }
 
-.habilidades {
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-style: oblique;
-    font-weight: bold;
+.contenedor {
+    background-color: green;
+    width: 1500px;
+    height: 1700px;
+    border: 5px dashed black;
+    margin: 0px auto;
 }
 
+.foto {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 10px solid black;
+    margin: 50px;
+
+
+
+}
+
+.personal {
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    border: 10px solid black;
+    margin: 50px;
+    padding: 10px;
+    text-align: center;
+
+
+
+}
+
+.titulos {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border: 10px solid black;
+    margin: 50px;
+    padding: 10px;
+
+
+}
+
+.informacion {
+    position: relative;
+    background-color: white;
+    width: 300px;
+    height: 1310px;
+    padding: 1px;
+    border: 10px solid black;
+    margin: 50px;
+    left: 400px;
+    top: -1400px;
+    padding: 10px;
+    text-align: center;
+
+
+
+}
+
+.linea {
+    margin: 0px;
+    border: 5px solid black;
+    width: 300px;
+    height: 0px;
+    padding: -10px;
+}
+
+
+.habilidades {
+    background-color: aliceblue;
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    border: 10px solid black;
+
+
+
+
+}
+
+.nivel {
+    padding: 1px;
+    font-size: medium;
+}
+
+
+
+.proyectos {
+    position: relative;
+    background-color: white;
+    width: 300px;
+    height: 1240px;
+    border: 10px solid black;
+    margin: 50px;
+    padding: 50px;
+    left: 800px;
+    top: -2800px;
+    text-align: center;
+
+
+}
