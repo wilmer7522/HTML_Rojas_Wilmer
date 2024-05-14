@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+}
+
+.rectangulo3 {
+  
+    position: relative;
+    margin: 100px;
+}
+
+.metro1200
+{
+    position: relative;
+    left: -1440px;
+    top: -800px;
+}
+.comprarTarjeta {
+    position: relative;
+    left: 800px;
+    top: -850px;
+    
+}
+.carrito {
+    position: relative;
+    left: 900px;
+    top: -850px;
+    
+    margin: 10px solid red
+    ;
+}
