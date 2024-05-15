@@ -1,6 +1,8 @@
+
 body {
     background-color: rgb(114, 34, 34);
 }
+
 
 .contenedor {
     background: linear-gradient(#FFFFFF, #E6E6E6, #808080 );
@@ -51,7 +53,6 @@ body {
     width: 132px;
     height: 41px;
 
-
 }
 .lupa {
     position: relative;
@@ -59,8 +60,6 @@ body {
     top: -670px;
     width: 27px;
     height: 27px;
-
-
 
 }
 

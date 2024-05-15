@@ -1,6 +1,15 @@
+
+@font-face{
+    font-family: letraopen;
+    src: url(./Open_Sans/static/OpenSans-Regular.ttf);
+}
+
 body {
     background-color: rgb(114, 34, 34);
 }
+
+
+
 
 .contenedor {
     background: linear-gradient(#FFFFFF, #E6E6E6, #808080);
@@ -48,6 +57,8 @@ body {
 }
 
 .saldo {
+    font-family: letraopen;
+
     position: relative;
     left: 950px;
     top: -640px;
@@ -150,11 +161,12 @@ body {
 }
 
 .valor {
+    font-weight: lighter;
     position: relative;
-    color: white;
-    top: -2100px;
+    color: rgb(255, 255, 255);
+    top: -2150px;
     left: 1420px;
-    font: Open Sans;
+    
 }
 
 .tarjeta {
@@ -171,7 +183,17 @@ body {
     left: 350px;
 }
 
+.saldoact1{
+    font-family: letraopen;
+    font-weight: lighter;
+}
+.saldoact{
+    font-family: letraopen;
+    
+    
+}
 .actual {
+    
     font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-27)/var(--unnamed-line-spacing-37) var(--unnamed-font-family-open-sans);
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-000000);
