@@ -1,0 +1,231 @@
+body {
+    background-color: rgb(114, 34, 34);
+}
+
+.contenedor {
+    background: linear-gradient(#FFFFFF, #E6E6E6, #808080);
+    top: 0px;
+    left: 0px;
+    height: 1200px;
+    width: 1600px;
+
+}
+
+.rectangulo3 {
+
+    position: relative;
+    left: 100px;
+    top: 200px;
+    width: 1400px;
+    height: 800px;
+
+}
+
+.metro1200 {
+    position: relative;
+    top: -550px;
+    left: 143px;
+    width: 196px;
+    height: 44px;
+
+}
+
+.comprarTarjeta {
+    position: relative;
+    left: 700px;
+    top: -600px;
+    width: 230px;
+    height: 41px;
+
+}
+
+.linea {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    top: -660px;
+    left: 935px;
+}
+
+.saldo {
+    position: relative;
+    left: 950px;
+    top: -640px;
+    width: 132px;
+    height: 41px;
+
+
+}
+
+.lupa {
+    position: relative;
+    left: 1100px;
+    top: -670px;
+    width: 27px;
+    height: 27px;
+
+
+
+}
+
+.carrito {
+    position: relative;
+    left: 1330px;
+    top: -720px;
+}
+
+.rectangulo1 {
+    position: relative;
+    top: -807px;
+    left: 1390px;
+}
+
+
+
+
+.metrolinea2 {
+    position: relative;
+    top: -1500px;
+    left: 350px;
+
+}
+
+.rectangulo2 {
+    position: relative;
+    top: -1290px;
+    left: 1200px;
+}
+
+.loguito {
+    position: relative;
+    top: -1390px;
+    left: 1215px;
+}
+
+.recargar {
+    position: relative;
+    color: rgb(10, 10, 10);
+    top: -1390px;
+    left: 1230px;
+    font-family: 'Open Sans';
+
+}
+
+
+.arrowUp2 {
+    position: relative;
+    top: -2120px;
+    left: 1435px;
+}
+
+.arrowDown2 {
+    position: relative;
+    top: -1420px;
+    left: 1435px;
+}
+
+
+
+.mil {
+    position: relative;
+    color: rgb(252, 251, 251);
+    top: -1915px;
+    left: 1425px;
+    opacity: 50%;
+}
+
+.milQui {
+    position: relative;
+    color: rgb(247, 244, 244);
+    top: -1850px;
+    left: 1425px;
+}
+
+.dosMil {
+    position: relative;
+    color: rgb(247, 244, 244);
+    top: -1780px;
+    left: 1425px;
+    opacity: 50%;
+}
+
+.valor {
+    position: relative;
+    color: white;
+    top: -2100px;
+    left: 1420px;
+    font: Open Sans;
+}
+
+.tarjeta {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-400) var(--unnamed-font-size-20)/var(--unnamed-line-spacing-35) var(--unnamed-font-family-open-sans);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal 400 20px/55px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    position: relative;
+    top: -1900px;
+    left: 350px;
+}
+
+.actual {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-27)/var(--unnamed-line-spacing-37) var(--unnamed-font-family-open-sans);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal 600 20px/37px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    position: relative;
+    top: -1920px;
+    left: 520px;
+}
+
+.escogido {
+    position: relative;
+    top: -1930px;
+    left: 539px;
+    width: 200px;
+    height: 37px;
+
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-27)/var(--unnamed-line-spacing-37) var(--unnamed-font-family-open-sans);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal 600 27px/37px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.boton {
+    position: relative;
+    top: -1910px;
+    left: 495px;
+    width: 288px;
+    height: 58px;
+    /* UI Properties */
+    border: 1px solid #707070;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.precioBoton {
+    position: relative;
+    top: -1985px;
+    left: 599px;
+    width: 77px;
+    height: 37px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-27)/var(--unnamed-line-spacing-37) var(--unnamed-font-family-open-sans);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal 600 27px/37px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 0.5;
+}

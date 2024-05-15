@@ -1,30 +1,139 @@
 body {
-    background-color: black;
+    background-color: rgb(114, 34, 34);
+}
+
+.contenedor {
+    background: linear-gradient(#FFFFFF, #E6E6E6, #808080 );
+    top: 0px;
+    left: 0px;
+    height: 1200px;
+    width: 1600px;
+
 }
 
 .rectangulo3 {
-  
+
     position: relative;
-    margin: 100px;
+    left: 100px;
+    top: 200px;
+    width: 1400px;
+    height: 800px;
+
 }
 
-.metro1200
-{
+.metro1200 {
     position: relative;
-    left: -1440px;
-    top: -800px;
+    top: -550px;
+    left: 143px;
+    width: 196px;
+    height: 44px;
+
 }
+
 .comprarTarjeta {
     position: relative;
-    left: 800px;
-    top: -850px;
-    
+    left: 700px;
+    top: -600px;
+    width: 230px;
+    height: 41px;
+
 }
+
+.linea {
+    position: relative;
+    top: -660px;
+    left: 725px;
+}
+.saldo {
+    position: relative;
+    left: 950px;
+    top: -640px;
+    width: 132px;
+    height: 41px;
+
+
+}
+.lupa {
+    position: relative;
+    left: 1100px;
+    top: -670px;
+    width: 27px;
+    height: 27px;
+
+
+
+}
+
 .carrito {
     position: relative;
-    left: 900px;
-    top: -850px;
-    
-    margin: 10px solid red
-    ;
+    left: 1330px;
+    top: -720px;
+}
+
+.rectangulo1 {
+    position: relative;
+    top: -815px;
+    left: 1390px;
+}
+
+.metrolinea {
+    position: relative;
+    width: 844px;
+    height: 497px;
+    top: -1500px;
+    left: 300px;
+
+}
+.tarjetaSaldo {
+    position: relative;
+    top: -1460px;
+    left: 170px;
+}
+
+.precio {
+    position: relative;
+    top: -1470px;
+    left: 175px;
+}
+
+.rectangulo2 {
+    position: relative;
+    top: -1560px;
+    left: 1200px;
+}
+
+.loguito {
+    position: relative;
+    top: -1660px;
+    left: 1215px;
+}
+
+.comprar {
+    position: relative;
+    top: -1650px;
+    left: 1230px;
+}
+
+.arrowUp {
+    position: relative;
+    top: -2370px;
+    left: 1435px;
+}
+
+.arrowDown {
+    position: relative;
+    top: -1685px;
+    left: 1435px;
+}
+
+.numeros {
+    position: relative;
+    top: -2150px;
+    left: 1435px;
+}
+
+.cantidad {
+    position: relative;
+    top: -2500px;
+    left: 1410px;
 }
