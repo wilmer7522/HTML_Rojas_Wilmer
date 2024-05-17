@@ -16,6 +16,7 @@ footer {
 }
 
 body {
+    background-color: black;
     position: relative;
     margin: 0px;
     padding: auto;
@@ -26,6 +27,8 @@ body {
 .contenedor {
     position: relative;
     background-color: rgb(0, 0, 0);
+    width: 1918px;
+    height: 4349px;
 }
 
 
@@ -263,4 +266,25 @@ body {
     justify-content: center;
     top: -2300px;
     right: 80px;
+}
+
+.flecha {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    rotate: 180deg;
+    top: -2580px;
+    float: right;
+    right: 250px;
+
+}
+
+.flecha2 {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    top: -2580px;
+    float: left;
+    left: 250px;
+
 }
