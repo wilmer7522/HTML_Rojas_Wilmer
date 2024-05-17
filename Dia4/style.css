@@ -1,0 +1,266 @@
+@font-face {
+    font-family: letraB;
+    src: url(font/Ember/AmazonEmber_Bd.ttf);
+}
+
+@font-face {
+    font-family: letraL;
+    src: url(font/Ember/AmazonEmber_Lt.ttf);
+}
+
+footer {
+    position: relative;
+    display: flex;
+    top: -100px;
+    justify-content: center;
+}
+
+body {
+    position: relative;
+    margin: 0px;
+    padding: auto;
+    width: 1918px;
+    height: 4349px;
+}
+
+.contenedor {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+
+
+.fondoT {
+    position: relative;
+    width: 1918px;
+    height: 4349px;
+
+}
+
+.logo {
+    position: relative;
+    left: 682px;
+    top: -860px;
+}
+
+
+.letraBold {
+
+    position: relative;
+    font-family: letraB;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    top: -955px;
+
+
+}
+
+.leBo {
+    position: relative;
+    width: 1151px;
+    height: 60px;
+    left: 389px;
+}
+
+.letraLight {
+    position: relative;
+    font-family: letraL;
+    color: rgb(255, 255, 255);
+    top: -920px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 1px;
+}
+
+.letraLight2 {
+    position: relative;
+    font-family: letraL;
+    color: rgb(0, 0, 0);
+    top: -950px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 1px;
+}
+
+.letraLight3 {
+    position: relative;
+    font-family: letraL;
+    color: rgb(255, 255, 255);
+    top: -1000px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+}
+
+.letraLight4 {
+    position: relative;
+    font-family: letraL;
+    color: rgb(255, 255, 255);
+    top: -1000px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+.letraLight5 {
+    position: relative;
+    font-family: letraL;
+    color: rgb(255, 255, 255);
+    top: -1000px;
+    font-size: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.letraLight6 {
+    position: relative;
+    font-family: letraL;
+    color: rgb(255, 255, 255);
+    top: -1600px;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+}
+
+.leLi {
+    position: relative;
+    width: 1160px;
+    height: 102px;
+    left: 380px;
+}
+
+.rectangle2 {
+    position: relative;
+    top: -870px;
+    display: flex;
+    justify-content: center;
+}
+
+.group2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -700px;
+}
+
+.rectangle3 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -650px;
+    left: 500px;
+}
+.rectangle31 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -920px;
+
+}
+
+.letraLike {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -410px;
+}
+
+.rectangle4 , .rectangle41, .rectangle42, .rectangle43, .rectangle44{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 1420px;
+    margin: 10px;
+    size: 30px;
+    
+}
+
+.cancel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -660px;
+}
+
+.metro {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -1550px;
+    margin: 1px;
+}
+
+.services {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -500px;
+    font-size: 40px;
+}
+.services2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -550px;
+    font-size: 40px;
+}
+
+.compatible {
+    position: relative;
+    top: -500px;
+}
+
+.mac {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -1600px;
+
+}
+
+.iphone {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    top: -1950px;
+    left: 350px;
+
+}
+
+.pc {
+    position: relative;
+    display: flex;
+    justify-content: right;
+    top: -2190px;
+    right: 350px;
+}
+.invertido {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -2100px;
+    left: 70px;
+}
+
+.powered {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -2300px;
+    right: 80px;
+}
