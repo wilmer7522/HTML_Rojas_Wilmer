@@ -10,8 +10,12 @@
     src: url(font/Poppins/Poppins-Light.ttf);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .pantalla1 {
-    background-color: #2f25b6;
+    background-color: #1e1d2b;
     width: 1920px;
     height: 1080px;
     overflow: hidden;
