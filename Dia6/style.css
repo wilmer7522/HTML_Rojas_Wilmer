@@ -1,9 +1,147 @@
+@font-face {
+    font-family: letraRegular;
+    src: url(font/myriad-pro-cufonfonts-webfont/MYRIADPRO-REGULAR.woff);
+}
 
+
+.contenedor {
+    margin: auto;
+    width: 1920px;
+    height: 1730px;
+    overflow: hidden;
+}
 
 .cabeza {
     background-color: blue;
+    position: fixed;
     width: 1920px;
     height: 147px;
+    top: 0;
+    z-index: 1000;
+}
+
+.menu a{
+color: #fff;
+text-decoration: none;
+font-family: letraRegular;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    font-size: 30px;
+
+}
+
+#escudo {
+    position: relative;
+    top: 30px;
+    display: flex;
+    align-items: center;
+}
+#boton {
+    background-color: #fff;
+    color: #000;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.blanco {
+    position: relative;
+    top: -1400px;
+    background-color: #fff;
+    width: 1545px;
+    height: 1225px;
+    border-radius: 30px;
+    margin: auto;
+
+}
+
+.dian {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    top: 51px;
+}
+
+.dian img {
+    width: 313px;
+    height: 53px;
+}
+
+.bienvenido p {
+    font-family: letraRegular;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 460px;
+    margin-right: 419px;
+    font-size: 26px;
+    top: 50px;
+}
+
+.muisca {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    top: 51px;
+}
+
+.caja1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 51px;
+}
+
+.letracaja1 p {
+    font-family: letraRegular;
+}
+
+.topcaja1 {
+    position: relative;
+    left: 380px;
+    top: 50px;
+}
+
+.doc {
+    font-family: letraRegular;
+    font-size: 21px;
+}
+
+.caja1 input{
     
+    width: 792px;
+    height: 63px;
+}
+
+.fecha {
+    position: relative;
+    left: 376px;
+    top: 60px;
+}
+
+.fecha input {
+    width: 792px;
+    height: 63px;
+    font-size: 40px;
+}
+
+.lFecha {
+    font-family: letraRegular;
+    font-size: 21px;
+}
+
+.topFecha {
+    position: relative;
+    left: 380px;
+    top: 70px;
 }
 
