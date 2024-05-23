@@ -1,3 +1,19 @@
+@font-face {
+    font-family: letraRegular;
+    src: url(font/myriad-pro-cufonfonts-webfont/MYRIADPRO-REGULAR.woff);
+}
+
+@font-face {
+    font-family: letraLight;
+    src: url(font/myriad-pro-cufonfonts-webfont/MyriadPro-Light.woff);
+}
+
+.contenedor {
+    margin: auto;
+    width: 1920px;
+    height: 1285px;
+    overflow: hidden;
+}
 
 .cabeza {
     background-color: blue;
@@ -5,13 +21,9 @@
     width: 1920px;
     height: 147px;
     top: 0;
-    
+    z-index: 2;
 }
-.fondo img{
 
-    width: 1920px;
-    height: 1080px;
-}
 
 
 
@@ -48,3 +60,196 @@ font-family: Myriad Pro;
     align-items: center;
     margin-top: 40px;
 }
+
+.blanco {
+    position: relative;
+    top: -1450px;
+    background-color: #fff;
+    width: 1545px;
+    height: 870px;
+    border-radius: 30px;
+    margin: auto;
+
+}
+
+.dian {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    top: 51px;
+}
+
+.tramite p {
+    font-family: letraRegular;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    left: 380px;
+    width: 786px;
+    height: 64px;
+    font-size: 26px;
+    top: 50px;
+}
+
+.muisca {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    top: 51px;
+}
+
+.caja1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 20px;
+}
+
+.letracaja1 p {
+    font-family: letraRegular;
+}
+
+.topcaja1 {
+    position: relative;
+    left: 380px;
+    top: 20px;
+}
+
+.doc {
+    font-family: letraRegular;
+    font-size: 21px;
+}
+
+.caja1 input{
+    
+    width: 792px;
+    height: 63px;
+}
+
+.fecha {
+    position: relative;
+    left: 376px;
+    top: 0px;
+}
+
+.fecha input {
+    width: 792px;
+    height: 63px;
+    font-size: 40px;
+}
+
+.lFecha {
+    font-family: letraRegular;
+    font-size: 21px;
+}
+
+.topFecha {
+    position: relative;
+    left: 380px;
+    top: 10px;
+}
+
+.topFecha2 {
+    position: relative;
+    left: 380px;
+    top: -10px;
+}
+
+.fecha2 {
+    position: relative;
+    left: 376px;
+    top: -20px;
+}
+
+.fecha2 input {
+    width: 792px;
+    height: 63px;
+    font-size: 40px;
+}
+
+.image {
+    position: relative;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.letra {
+    position: relative;
+    top: -10px;
+    display: flex;
+    justify-content: center;
+}
+
+.peque {
+    font-family: letraLight;
+    font-size: 11px;
+}
+
+.botonAzul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -30px;
+}
+
+.botonAzul a {
+    background-color: #157FFB;
+    color: #ffffff;
+    width: 166px;
+    height: 25px;
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    text-decoration: none;
+    font-family: letraRegular;
+    font-size: 15px;
+}
+
+.foot {
+    background-color: #3366CC;
+    position: relative;
+    top: -1400px;
+    width: 1920px;
+    height: 174px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.ubicacion{
+    font-family: letraRegular;
+    font-size: 20px;
+    color: #fff;
+    width: 508px;
+    height: 104px;
+    text-align: center;
+}
+
+.ubicacion1 {
+    text-align: center;
+}
+
+.contacto {
+    font-family: letraRegular;
+    font-size: 20px;
+    color: #fff;
+    width: 508px;
+    height: 104px;
+    text-align: center;
+}
+
+.contacto1 {
+    text-align: center;
+}
+
+#logoF {
+    position: relative;
+    top: 70px;
+}
+

@@ -3,6 +3,11 @@
     src: url(font/myriad-pro-cufonfonts-webfont/MYRIADPRO-REGULAR.woff);
 }
 
+@font-face {
+    font-family: letraLight;
+    src: url(font/myriad-pro-cufonfonts-webfont/MyriadPro-Light.woff);
+}
+
 
 .contenedor {
     margin: auto;
@@ -12,7 +17,7 @@
 }
 
 .cabeza {
-    background-color: blue;
+    background-color: #3366CC;
     position: fixed;
     width: 1920px;
     height: 147px;
@@ -98,7 +103,7 @@ font-family: letraRegular;
     position: relative;
     display: flex;
     justify-content: center;
-    top: 51px;
+    top: 20px;
 }
 
 .letracaja1 p {
@@ -108,7 +113,7 @@ font-family: letraRegular;
 .topcaja1 {
     position: relative;
     left: 380px;
-    top: 50px;
+    top: 20px;
 }
 
 .doc {
@@ -125,7 +130,7 @@ font-family: letraRegular;
 .fecha {
     position: relative;
     left: 376px;
-    top: 60px;
+    top: 30px;
 }
 
 .fecha input {
@@ -142,6 +147,191 @@ font-family: letraRegular;
 .topFecha {
     position: relative;
     left: 380px;
+    top: 40px;
+}
+
+.image {
+    position: relative;
+    top: -2060px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.letra {
+    position: relative;
+    top: -2070px;
+    display: flex;
+    justify-content: center;
+}
+
+.peque {
+    font-family: letraLight;
+    font-size: 11px;
+}
+
+.botonAzul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -2080px;
+}
+
+.botonAzul a {
+    background-color: #157FFB;
+    color: #ffffff;
+    width: 166px;
+    height: 42px;
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    text-decoration: none;
+    font-family: letraRegular;
+    font-size: 15px;
+
+
+}
+
+.letra2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -2080px;
+}
+
+.nuevo {
+    font-family: letraRegular;
+    font-size: 35px;
+}
+
+.logos {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    top: -2100px;
+
+}
+
+.logos img {
+    margin-inline: -300px;
+}
+
+
+.rut {
+    position: relative;
+    display: flex;
+    left: 630px;
+    top: -2140px;
+    font-family: letraRegular;
+    font-size: 35px;
+}
+
+.electronica {
+    position: relative;
+    display: flex;
+    left: 999px;
+    top: -2220px;
+    font-family: letraRegular;
+    font-size: 35px;
+}
+
+.rut2 {
+    position: relative;
+    display: flex;
+    top: -2240px;
+    font-family: letraLight;
+    font-size: 17px;
+    margin-left: 1500px;
+    right: 980px;
+    text-align: center;
+    
+
+}
+
+.electronica2 {
+    position: relative;
+    display: flex;
+    top: -2340px;
+    font-family: letraLight;
+    font-size: 17px;
+    margin-left: 1650px;
+    right: 600px;
+    text-align: center;
+}
+
+
+.tramitar {
+    position: relative;
+    top: -2360px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-inline: 370px;
+}
+
+.tramitar a {
+    background-color: #157FFB;
+    color: #ffffff;
+    width: 220px;
+    height: 40px;
+    border-radius: 18px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    text-decoration: none;
+    font-family: letraRegular;
+    font-size: 15px;
+}
+
+.foot {
+    background-color: #3366CC;
+    position: relative;
+    top: -2250px;
+    width: 1920px;
+    height: 285px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.ubicacion{
+    font-family: letraRegular;
+    font-size: 20px;
+    color: #fff;
+    width: 508px;
+    height: 104px;
+    text-align: center;
+}
+
+.ubicacion1 {
+    text-align: center;
+}
+
+.contacto {
+    font-family: letraRegular;
+    font-size: 20px;
+    color: #fff;
+    width: 508px;
+    height: 104px;
+    text-align: center;
+}
+
+.contacto1 {
+    text-align: center;
+}
+
+#logoF {
+    position: relative;
     top: 70px;
 }
+
+
+
+
+
+
 
