@@ -1,25 +1,34 @@
 
+@font-face {
+    font-family: letraRegular;
+    src: url(font/myriad-pro-cufonfonts-webfont/MYRIADPRO-REGULAR.woff);
+}
+
+@font-face {
+    font-family: letraLight;
+    src: url(font/myriad-pro-cufonfonts-webfont/MyriadPro-Light.woff);
+}
+.contenedor {
+    margin: auto;
+    width: 1920px;
+    height: 1285px;
+    overflow: hidden;
+}
+
 .cabeza {
-    background-color: blue;
+    background-color: #3366CC;
     position: fixed;
     width: 1920px;
     height: 147px;
     top: 0;
+    z-index: 2;
     
 }
-.fondo img{
-
-    width: 1920px;
-    height: 1080px;
-}
-
-
-
 
 .menu a{
 color: #fff;
 text-decoration: none;
-font-family: Myriad Pro;
+font-family: letraRegular;
 }
 
 .menu {
@@ -48,3 +57,139 @@ font-family: Myriad Pro;
     align-items: center;
     margin-top: 40px;
 }
+
+
+.blanco {
+    position: relative;
+    top: -1450px;
+    background-color: #fff;
+    width: 1545px;
+    height: 870px;
+    border-radius: 30px;
+    margin: auto;
+
+}
+
+.dian {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    top: 51px;
+}
+
+.circulo {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    top: 100px;
+}
+
+.completada {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    top: 100px;
+}
+
+.completada p {
+    font-family: letraRegular;
+    font-size: 39px;
+}
+
+.felicitaciones p {
+    font-family: letraRegular;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    left: 260px;
+    width: 1000px;
+    height: 84px;
+    font-size: 35px;
+    top: 50px;
+}
+
+
+.muisca {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    top: 41px;
+}
+
+.botonAzul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -30px;
+}
+
+.botonAzul a {
+    background-color: #157FFB;
+    color: #ffffff;
+    width: 311px;
+    height: 79px;
+    border-radius: 18px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    text-decoration: none;
+    font-family: letraRegular;
+    font-size: 29px;
+}
+
+
+
+
+
+
+
+
+
+
+.foot {
+    background-color: #3366CC;
+    position: relative;
+    top: -1400px;
+    width: 1920px;
+    height: 174px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.ubicacion{
+    font-family: letraRegular;
+    font-size: 20px;
+    color: #fff;
+    width: 508px;
+    height: 104px;
+    text-align: center;
+}
+
+.ubicacion1 {
+    text-align: center;
+}
+
+.contacto {
+    font-family: letraRegular;
+    font-size: 20px;
+    color: #fff;
+    width: 508px;
+    height: 104px;
+    text-align: center;
+}
+
+.contacto1 {
+    text-align: center;
+}
+
+#logoF {
+    position: relative;
+    top: 70px;
+}
+
+
+

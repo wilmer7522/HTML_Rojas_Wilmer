@@ -16,22 +16,19 @@
 }
 
 .cabeza {
-    background-color: blue;
+    background-color: #3366CC;
     position: fixed;
     width: 1920px;
     height: 147px;
     top: 0;
     z-index: 2;
+    
 }
-
-
-
-
 
 .menu a{
 color: #fff;
 text-decoration: none;
-font-family: Myriad Pro;
+font-family: letraRegular;
 }
 
 .menu {
