@@ -156,7 +156,7 @@ body{
     height: auto;
     margin-left: 3vw;
     margin-top: 4vw;
-    border: 2px solid red;
+    
 }
 
 .compatible p {
@@ -216,12 +216,18 @@ body{
     height: auto;
     margin-inline: 0.5vw;
 }
+
+.fir {
+    margin-left: -10vw;
+    margin-top: 1vw;
+}
 .firma {
     
     width: 30vw;
     height: auto;
     margin-inline: 0.5w ;
     margin-top: 8vw;
+    margin-right: -10vw;
 }
 
 .footer {
@@ -235,9 +241,7 @@ body{
 
 }
 
-.pie {
 
-}
 
 
 
