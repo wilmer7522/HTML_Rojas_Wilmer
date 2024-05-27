@@ -142,12 +142,12 @@ body{
 }
 
 .services p {
-        display: flex;
-        justify-content: center;
-        color: white;
-        font-size: 2.5vw;
-        margin: 1vw;
-        font-family: letraL;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 2.5vw;
+    margin: 1vw;
+    font-family: letraL;
     
 }
 
@@ -161,11 +161,11 @@ body{
 
 .compatible p {
     display: flex;
-        justify-content: center;
-        color: white;
-        font-size: 7vw;
-        margin: 1vw;
-        font-family: letraL;
+    justify-content: center;
+    color: white;
+    font-size: 7vw;
+    margin: 1vw;
+    font-family: letraL;
 }
 
 .range p {
