@@ -86,7 +86,7 @@ body{
     width: 95%;
     height: auto;
     margin-left: 2vw;
-    border: 2vw solid red;
+    
 }
 
 .rectangle3 .peliculas {
@@ -118,5 +118,7 @@ body{
     margin: 1vw;
     font-family: letraL;
 }
+
+
 
 
