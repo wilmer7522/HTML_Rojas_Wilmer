@@ -8,12 +8,11 @@
     width: 65vw;
     height: auto;
     display: grid;
-    flex-wrap: wrap;
-    grid-template-columns: 1;
-    grid-template-rows: 1;
+    /*grid-template-columns: 2;
+    grid-template-rows: 3;*/
     background-color: black;
     padding-top: 2vw;
-    padding-bottom: 1vw;
+    padding-bottom: 2vw;
     column-gap: 1vw;
     row-gap: 1vw;
     justify-content: center;
@@ -23,12 +22,9 @@
     width: 65vw;
     height: auto;
     display: grid;
-    flex-wrap: wrap;
-    grid-template-columns: 1;
-    grid-template-rows: 1;
     background-color: black;
     padding-top: 2vw;
-    padding-bottom: 1vw;
+    padding-bottom: 1.5vw;
     column-gap: 1vw;
     row-gap: 1vw;
     justify-content: center;
@@ -96,8 +92,8 @@
 }
 
 .cuadros2 {
-    width: 29vw;
-    height: auto;
+    width: 30vw;
+    height: 41vw;
     border-radius: 1vw;
 }
 
