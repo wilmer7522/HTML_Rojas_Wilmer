@@ -1,29 +1,114 @@
-
-
 .contenedor {
     display: grid;
-    grid-template-columns: repeat(2,200px);
-    grid-template-rows: repeat(3, 100px);
-    width: 100%;
-    height: auto;
-    gap: 1vw;
-    background-color: black;
-    padding: 1vw;
+    justify-content: center;
+
 }
 
+.contenedor1 {
+    width: 65vw;
+    height: auto;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 1;
+    grid-template-rows: 1;
+    background-color: black;
+    padding-top: 2vw;
+    padding-bottom: 1vw;
+    column-gap: 1vw;
+    row-gap: 1vw;
+    justify-content: center;
+    border-radius: 1vw;
+}
+.contenedor2 {
+    width: 65vw;
+    height: auto;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 1;
+    grid-template-rows: 1;
+    background-color: black;
+    padding-top: 2vw;
+    padding-bottom: 1vw;
+    column-gap: 1vw;
+    row-gap: 1vw;
+    justify-content: center;
+    border-radius: 1vw;
+    margin-top: 1vw;
+}
 
-.video1{
-    border-radius: 30px;
+.video1 {
     grid-column-start: 1;
     grid-column-end: 2;
-    border: 5px solid red;
-    
 }
 
 .letras {
     grid-column-start: 2;
     grid-column-end: 3;
-    border-radius: 30px;
-    border: 5px solid red;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.letras2 {
+    border-radius: 1vw;
+    width: 30vw;
+    height: auto;
+}
+
+.video11 {
+    border-radius: 1vw;
+    width: 30vw;
+    height: auto;
+}
+
+.video22 {
+    border-radius: 1vw;
+    width: 30vw;
+    height: auto;
+}
+
+.video3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.video33{
+    border-radius: 1vw;
+    width: 61vw;
+    height: auto;
+}
+
+.verde {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.verde2 {
+    width: 30vw;
+    height: 20vw;
+    border-radius: 1vw;
+
+}
+
+.cuadros {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.cuadros2 {
+    width: 29vw;
+    height: auto;
+    border-radius: 1vw;
+}
+
+.video4 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.video44 {
+    width: 30vw;
+    height: 20vw;
+    border-radius: 1vw;
 }
 
