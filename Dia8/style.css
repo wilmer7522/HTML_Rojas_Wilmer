@@ -32,8 +32,31 @@
 
 .video1 {
     grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-end: 2;   
+    
+    
+    /*transition-delay: 1s;*/
 }
+
+.video11:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    /*rotate: 360deg;*/
+    animation-duration: 4s;
+    animation-name: hola;
+}
+
+@keyframes hola {
+    from {background-color: aliceblue;}
+    to {background-color: brown;}
+}
+.video22:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    rotate: 360deg;
+}
+
+
 
 .letras {
     grid-column-start: 2;
