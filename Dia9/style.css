@@ -2,7 +2,9 @@
     display: grid;
     justify-content: center;
     
+    
 }
+
 
 
 .paisaje {
@@ -41,7 +43,6 @@
     5% {top: 0vw;}
     10.1% {opacity: 100%;}
     10% {top: -10vw;}
-    
     55% {top: -100vw;}
     100% {opacity: 0%;}
 }

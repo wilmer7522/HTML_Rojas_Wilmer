@@ -1,0 +1,34 @@
+.contenedor {
+    width: 95vw;
+    height: 45vw;
+    border: 0.5vw solid gray;
+    display: grid;
+}
+
+.admin {
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+.dash p {
+    background-color: blue;
+    margin-right: 75vw;
+    display: grid;
+    text-align: center;
+    color: white;
+    padding: 1vw;
+    border-radius: 1vw;
+
+}
+
+.elem {
+    position: relative;
+    animation-name: elemento;
+
+}
+
+@keyframes elemento{
+    
+}
+
+
