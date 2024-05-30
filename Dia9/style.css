@@ -1,12 +1,253 @@
-.paisaje {
+.contenedor {
     display: grid;
-   background-size: 100vw;
-    background-image: url(imagenes/Paisaje.png);
+    justify-content: center;
     
-    width: 100vw;
-    height: 50vw;
-    grid-template-columns: 4;
-    grid-template-rows: 4;
-    column-gap: 1vw;
-    row-gap: 1vw;
+}
+
+
+.paisaje {
+
+    display: grid;
+    background-size: 100vw;
+    background-image: url(imagenes/Paisaje.png);
+    width: 80vw;
+    height: 40vw;
+    overflow: hidden;
+    
+}
+
+
+
+.tres {
+    display: grid;
+    grid-column-start: 3;
+    grid-row-start: 2;
+    justify-content: center;
+    margin-top: 10vw;
+    overflow: hidden;
+    font-size: 3vw;
+}
+
+.tres p {
+    position: relative;
+    animation-name: tres;
+    animation-duration: 11s;
+    animation-timing-function: ease-out;
+    top: 10vw;
+}
+
+@keyframes tres {
+    5% {opacity: 100%;}
+    5% {top: 0vw;}
+    10.1% {opacity: 100%;}
+    10% {top: -10vw;}
+    
+    55% {top: -100vw;}
+    100% {opacity: 0%;}
+}
+
+.dos {
+    display: grid;
+    grid-column-start: 3;
+    grid-row-start: 2;
+    justify-content: center;
+    margin-top: 10vw;
+    overflow: hidden; 
+    font-size: 3vw; 
+}
+
+.dos p {
+    position: relative;
+    
+    animation-name: dos;
+    animation-duration: 12s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    top: 10vw;
+}
+
+@keyframes dos {
+    5% {opacity: 100%;}
+    5% {top: 0vw;}
+    10.1% {opacity: 100%;}
+    10% {top: -10vw;}
+    
+    55% {top: -100vw;}
+    100% {opacity: 0%;}
+}
+
+.uno {
+    display: grid;
+    grid-column-start: 3;
+    grid-row-start: 2;
+    justify-content: center;
+    margin-top: 10vw;
+    overflow: hidden; 
+    font-size: 3vw;
+}
+
+.uno p {
+    position: relative;
+    animation-name: uno;
+    animation-duration: 13s;
+    animation-delay: 2s;
+    top: 10vw;
+
+}
+
+@keyframes uno {
+    5% {opacity: 100%;}
+    5% {top: 0vw;}
+    10.1% {opacity: 100%;}
+    10% {top: -10vw;}
+    
+    55% {top: -100vw;}
+    100% {opacity: 0%;}
+}
+
+.accion {
+    display: grid;
+    grid-column-start: 3;
+    grid-row-start: 2;
+    justify-content: center;
+    animation-name: accion;
+    margin-top: 10vw;
+    overflow: hidden;
+    font-size: 3vw;
+}
+
+.accion p {
+    position: relative;
+    animation-name: accion;
+    animation-duration: 13s;
+    animation-delay: 3s;
+    top: 10vw;
+}
+
+@keyframes accion {
+    5% {opacity: 100%;}
+    5% {top: 0vw;}
+    10.1% {opacity: 100%;}
+    10% {top: -10vw;}
+    
+    55% {top: -100vw;}
+    100% {opacity: 0%;}
+}
+
+.sol {
+display: grid;
+justify-content: end;
+grid-column-start: 6;
+grid-row-start: 1;
+animation-name: sol;
+
+animation-duration: 14s;
+animation-iteration-count: 1;
+
+}
+
+@keyframes sol {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    60% {opacity: 1;}
+    70% {opacity: 1;}
+    100% {opacity: 1;}
+}
+
+#solecito {
+    width: 10vw;
+    height: auto;
+}
+
+.nube {
+    display: grid;
+    grid-row-start: 1;
+    position: relative;
+    animation-name: cloud;
+    animation-duration: 4s;
+    animation-delay: 4s;
+    animation-iteration-count: 1;
+    z-index: 2;
+    left: -20vw;
+
+
+}
+
+@keyframes cloud {
+    0% {left: -10vw; }
+    40% {left: 40vw;}
+    50% {left: 40vw;}
+    60% {left: 40vw;}
+    70% {left: 40vw;}
+    100% {left: 100vw;}
+    110% {left: 200vw;}
+    
+}
+
+#nubecita {
+    width: 20vw;
+    height: auto;
+
+    
+}
+
+.lluvia {
+    grid-row-start: 1;
+    grid-column-start: 4;
+    margin-left: 3vw;
+    position: relative;
+    animation-name: lluvia;
+    animation-duration: 0.3s;
+    animation-delay: 5s;
+    margin-top: 4vw;
+    animation-iteration-count: 5;
+    flood-opacity: initial;
+    margin-top: -10vw;
+}
+
+
+.lluviecita {
+    width: 8vw;
+    height: auto;
+    color: blue;
+}
+
+@keyframes lluvia {
+    0% {opacity: 0;}
+    10% {opacity: 0;}
+    0% {top: 0vw;}
+    10% {top: 6vw;}
+    20% {top: 9vw;}
+    30% {top: 12vw;}
+    40% {top: 20vw;}
+    50% {top: 25vw;}
+    60% {top: 30vw;}
+    70% {top: 35vw;}
+    80% {top: 40vw;}
+    90% {top: 45vw;}
+    100% {top: 50vw;}
+
+}
+
+.flor {
+    grid-column-start: 4;
+    grid-row-start: 2;
+    position: relative;
+    animation-name: flor;
+    margin-top: 20vw;
+    animation-duration: 5s;
+    animation-delay: 7.5s;
+
+}
+
+@keyframes flor {
+    0% {bottom: 0vw;}
+    20% {bottom: 10vw;}
+    50% {bottom: 10vw;}
+    100% {bottom: 10vw;}
+}
+
+.florecita {
+    width: 10vw;
+    height: auto;
 }
