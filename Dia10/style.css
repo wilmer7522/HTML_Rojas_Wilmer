@@ -15,6 +15,8 @@
     grid-column-start: 1;
     grid-row-start: 1;
     grid-row-end: 6;
+    transition: 0.5s;
+    
 }
 
 
@@ -28,32 +30,62 @@
     display: flex;
     align-items: center;
     padding-left: 1vw;
+    transition: 0.5s;
     
 }
 
 .list {
     width: 3vw;
 }
-.menulist {
-    position: relative;
-    right: 3vw;
-    /*display: none;*/
+#menulist {
+    position: absolute;
+   
+   display: none;
+    
 }
+
+#menulist:checked ~ .menu{
+    width: 5vw;
+    height: 45vw;
+}
+
+#menulist:checked ~ .caja{
+    width: 90vw;
+}
+#menulist:checked ~ .head{
+   
+  
+    width: 89vw;
+    
+
+}
+
+
+
+/*#menulist:checked ~ .head{
+position: absolute;
+    display: grid;
+    width: 95vw;
+    height: 5vw;
+    
+    
+}*/
+
 
 
 .caja {
     width: 80vw;
     height: 40vw;
     background-color: aqua;
-    border: 1px solid red;
     grid-row-start: 2;
     display: grid;
-    column-gap: 1vw;
+    column-gap: 2vw;
     row-gap: 5vw;
+    transition: 0.5s;
 }
 
 .trafic {
-    width: 18vw;
+    width: 98%;
     height: 10vw;
     background-color: white;
     margin-left: 1vw;
@@ -65,7 +97,7 @@
 }
 
 .sales {
-    width: 18vw;
+    width: 98%;
     height: 10vw;
     background-color: white;
     border-radius: 1vw;
@@ -75,7 +107,7 @@
 }
 
 .pages {
-    width: 18vw;
+    width: 98%;
     height: 10vw;
     background-color: white;
     border-radius: 1vw;
@@ -85,7 +117,7 @@
 }
 
 .visitor {
-    width: 18vw;
+    width: 98%;
     height: 10vw;
     background-color: white;
     border-radius: 1vw;
@@ -95,15 +127,15 @@
 }
 
 .report {
-    width: 78vw;
+    width: 98%;
     height: 10vw;
     background-color: rgb(161, 31, 31);
     grid-row-start: 3;
     grid-column-start: 1;
     grid-column-end: 5;
     margin-top: -10vw;
-    margin-left: 1vw;
     border-radius: 1vw;
+    margin-left: 1vw;
 }
 
 
