@@ -5,30 +5,107 @@
     display: grid;
 }
 
-.admin {
+
+.menu{
+    background-color: #3a1bad;
+    width: 15vw;
+    height: 45vw;
+    display: grid;
+    align-items: center;
     grid-column-start: 1;
     grid-row-start: 1;
+    grid-row-end: 6;
 }
 
-.dash p {
-    background-color: blue;
-    margin-right: 75vw;
-    display: grid;
-    text-align: center;
-    color: white;
-    padding: 1vw;
-    border-radius: 1vw;
 
-}
 
-.elem {
-    position: relative;
-    animation-name: elemento;
 
-}
-
-@keyframes elemento{
+.head{
+    grid-column-start: 2;
+    border: 1px solid red;
+    width: 79vw;
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    padding-left: 1vw;
     
 }
+
+.list {
+    width: 3vw;
+}
+.menulist {
+    position: relative;
+    right: 3vw;
+    /*display: none;*/
+}
+
+
+.caja {
+    width: 80vw;
+    height: 40vw;
+    background-color: aqua;
+    border: 1px solid red;
+    grid-row-start: 2;
+    display: grid;
+    column-gap: 1vw;
+    row-gap: 5vw;
+}
+
+.trafic {
+    width: 18vw;
+    height: 10vw;
+    background-color: white;
+    margin-left: 1vw;
+    border-radius: 1vw;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    
+}
+
+.sales {
+    width: 18vw;
+    height: 10vw;
+    background-color: white;
+    border-radius: 1vw;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+}
+
+.pages {
+    width: 18vw;
+    height: 10vw;
+    background-color: white;
+    border-radius: 1vw;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+}
+
+.visitor {
+    width: 18vw;
+    height: 10vw;
+    background-color: white;
+    border-radius: 1vw;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+}
+
+.report {
+    width: 78vw;
+    height: 10vw;
+    background-color: rgb(161, 31, 31);
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    margin-top: -10vw;
+    margin-left: 1vw;
+    border-radius: 1vw;
+}
+
+
 
 

@@ -1,0 +1,32 @@
+#contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100vw;
+    height: 50vw;
+    background-color: #000000;
+    color: black;
+}
+
+#caja1{
+    background-color: #fefefe;
+    width: 14vw;
+    height: 46vw;
+    margin-top: 2%;
+    margin-left: 2.5%;
+}
+#caja2{
+    background-color: #fefefe;
+    width: 80vw;
+    height: 5vw;
+    margin-left: -80%;
+    margin-top: 2%;
+
+}
+#caja3{
+    background-color: #eeedf2;
+    width: 80vw;
+    height: 41.6vw;
+    margin-top: -52%;
+    margin-left: 20%;
+}
