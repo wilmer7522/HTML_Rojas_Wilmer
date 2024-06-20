@@ -7,11 +7,9 @@
 
 
 .menu{
-    background-color: #3a1bad;
+    background-color: #ffffff;
     width: 15vw;
     height: 45vw;
-    display: grid;
-    align-items: center;
     grid-column-start: 1;
     grid-row-start: 1;
     grid-row-end: 6;
@@ -21,10 +19,100 @@
 
 
 
+.face{
+    position: relative;
+    display: flex;
+    fill: blue;
+    margin-left: 1vw;
+    width: 2vw;
+    height: auto;
+    margin-top: 1vw;
+    
+}
+
+.admin{
+    color: blue;
+    font-size: 2vw;
+    font-weight: bolder;
+    margin-left: 5vw;
+    margin-top: -2.2vw;
+}
+
+.charts{
+    font-size: 2vw;
+    margin-left: 6vw;
+    margin-top: -2.4vw;
+}
+
+.wid{
+    width: 2vw;
+    height: auto;
+    margin-left: 1vw;
+}
+#table{
+    width: 2vw;
+    height: auto;
+    margin-left: 1vw;
+}
+
+.letraWid{
+    font-size: 2vw;
+    margin-left: 6vw;
+    margin-top: -2.4vw;
+}
+
+.h:hover{
+    background-color: rgb(236, 233, 233);
+    border-radius: 0.4rem;
+    margin-left: 0.5vw;
+    width: 90%;
+}
+
+.dash1{
+    position: relative;
+    margin-top: 3vw;
+    background-color: blue;
+    width: 90%;
+    height: 3vw;
+    margin-left: 0.5vw;
+    border-radius: 0.4rem;
+    
+    
+}
+
+.letraD{
+    color: #ffffff;
+    margin-top: -1.3vw;
+    font-size: 1.5vw;
+    margin-left: 5vw;
+
+}
+
+.da {
+    position: relative;
+    display: flex;
+    top: 0.5vw;
+    width: 2vw;
+    height: auto;
+    /*margin-inline-end: 2vw;*/
+    fill: white;
+    margin-left: 1vw;
+}
+
+.main{
+    font-size: 0.7vw;
+    margin-left: 1rem;
+    opacity: 70%;
+}
+
+#menulist:checked + .main{
+    display: none;
+    opacity: 0%;
+}
 
 .head{
+    background-color: white;
     grid-column-start: 2;
-    border: 1px solid red;
     width: 79vw;
     height: 5vw;
     display: flex;
@@ -32,60 +120,64 @@
     padding-left: 1vw;
     transition: 0.5s;
     
+    
 }
 
 .list {
     width: 3vw;
+    cursor: pointer;
 }
 #menulist {
-    position: absolute;
-   
-   display: none;
+    display: none;
+    
     
 }
 
-#menulist:checked ~ .menu{
+#menulist:checked ~ .menu {
     width: 5vw;
     height: 45vw;
+    transition: 0.5s;
 }
 
 #menulist:checked ~ .caja{
     width: 90vw;
+    /*z-index: 2;*/
+    transition-duration: 0.5s;
 }
 #menulist:checked ~ .head{
-   
-  
     width: 89vw;
-    
-
+    transition-duration: 0.5s;
 }
 
 
 
-/*#menulist:checked ~ .head{
-position: absolute;
-    display: grid;
-    width: 95vw;
-    height: 5vw;
-    
-    
-}*/
+
+
 
 
 
 .caja {
     width: 80vw;
     height: 40vw;
-    background-color: aqua;
+    background-color: rgb(236, 236, 236);
     grid-row-start: 2;
     display: grid;
-    column-gap: 2vw;
-    row-gap: 5vw;
-    transition: 0.5s;
+    column-gap: 0.5vw;
+    row-gap: 0vw;
+    transition: 0.2s;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 150fr 150fr ;
+    z-index: 10;
+    
+}
+
+.letraDash{
+    font-size: 2vw;
 }
 
 .trafic {
-    width: 98%;
+    width: 90%;
     height: 10vw;
     background-color: white;
     margin-left: 1vw;
@@ -93,50 +185,213 @@ position: absolute;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(71, 66, 66);
+    
+}
+
+.numero1 {
+    display: flex;
+    font-size: 2vw;
+    margin: 1vw auto auto 1vw;
+    
+    
+}
+
+.letra {
+    font-size: 1vw;
+    display: flex;
+    margin: 0vw auto auto 1vw;
+    font: lighter;
+    opacity: 70%;
+}
+
+.porcentaje {
+    font-size: 1.5vw;
+    display: flex;
+    margin: 0vw auto auto 1vw;
+    font-weight: bold;
+}
+
+#barra1 {
+    width: 90%;
+    height: 2vw;
+    display: flex;
+    margin-left: 1vw;
+        
     
 }
 
 .sales {
-    width: 98%;
+    width: 90%;
     height: 10vw;
     background-color: white;
     border-radius: 1vw;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(71, 66, 66);
 }
 
 .pages {
-    width: 98%;
+    width: 90%;
     height: 10vw;
     background-color: white;
     border-radius: 1vw;
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 2;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(71, 66, 66);
 }
 
 .visitor {
-    width: 98%;
+    width: 90%;
     height: 10vw;
     background-color: white;
     border-radius: 1vw;
     grid-column-start: 4;
     grid-column-end: 5;
     grid-row-start: 2;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(71, 66, 66);
 }
 
 .report {
-    width: 98%;
+    width: 96.5%;
     height: 10vw;
-    background-color: rgb(161, 31, 31);
+    background-color: rgb(255, 255, 255);
     grid-row-start: 3;
     grid-column-start: 1;
     grid-column-end: 5;
-    margin-top: -10vw;
     border-radius: 1vw;
     margin-left: 1vw;
+    margin-top: -10vw;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(71, 66, 66);
 }
+
+#elements{
+    display: none;
+}
+
+.elem{
+    transition: 0.5s;
+    
+}
+
+#Layer_1{
+    width: 2vw;
+    height: auto;
+    margin-left: 1vw;
+    margin-top: 0.5vw;
+    
+}
+
+.letraElem{
+    position: relative;
+    font-size: 2vw;
+    margin-top: -2.5vw;
+    margin-left: 6vw;
+}
+
+.alert{
+    height: 0vw;
+    overflow: hidden;
+    font-size: 1vw;
+    margin-left: 5vw;
+}
+
+.al{
+    font-size: 1.5vw;
+    margin-left: 1.3vw;
+}
+
+.al:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+
+
+#elements:checked ~ .alert{
+    height: 14vw;
+    transition: 0.2s;
+    
+}
+
+#elements:checked ~ .elem{
+    background-color: blue;
+    color: #ffffff;
+    border-radius: 0.5vw;
+    height: 3vw;
+    width: 90%;
+    margin-left: 0.5vw;
+}
+
+
+@media only screen and (max-width: 768px){
+
+    .contenedor{
+        height: 85vw;
+    }
+
+    .head{
+        height: 5vw;
+    }
+
+    .caja{
+        height: 80vw;
+        /*grid-template-rows: -1fr 1fr 1fr;*/
+    }
+
+
+
+    .trafic{
+        width: 80%;
+        height: 50%;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        margin-top: -15vw;
+        margin-left: 2vw;
+
+    }
+
+    .sales{
+        width: 80%;
+        height: 50%;
+        grid-column-start: 3;
+        grid-column-end: 5;
+        margin-top: -15vw;
+    }
+
+    .pages{
+        width: 80%;
+        height: 50%;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        margin-top: 30vw;
+        margin-left: 2vw;
+
+
+    }
+
+    .visitor{
+        width: 80%;
+        height: 50%;
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        margin-top: 30vw;
+
+    }
+
+    .report{
+        width: 90%;
+        height: 20vw;
+        grid-row-start: 3;
+        margin-top: 0;
+    }
+}
+
 
 
 
