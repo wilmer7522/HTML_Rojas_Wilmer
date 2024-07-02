@@ -107,6 +107,7 @@
 
 #menulist:checked + .menu .main{
     opacity: 0%;
+    transition: 0.5s;
 }
 
 .head{
@@ -117,7 +118,7 @@
     display: flex;
     align-items: center;
     padding-left: 1vw;
-    transition: 0.5s;
+    transition: 0.3s;
     
     
 }
@@ -173,6 +174,13 @@
 
 .letraDash{
     font-size: 2vw;
+}
+
+.ho{
+    font-size: 1vw;
+    opacity: 50%;
+    margin-left: -19vw;
+    margin-top: 5vw;
 }
 
 .trafic {
@@ -265,6 +273,20 @@
     margin-top: -10vw;
     box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(71, 66, 66);
 }
+
+.sale{
+    margin-top: 1vw;
+    margin-left: 2vw;
+    font-size: 2vw;
+
+}
+
+.mundo{
+    margin-top: -2vw;
+    margin-left: 1.9vw;
+    font-size: 3vw;
+}
+
 
 #elements{
     display: none;
@@ -388,6 +410,14 @@
         height: 20vw;
         grid-row-start: 3;
         margin-top: 0;
+    }
+
+    .sale{
+        font-size: 2vw;
+    }
+
+    .mundo{
+        font-size: 4vw;
     }
 }
 
