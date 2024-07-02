@@ -1,7 +1,7 @@
 .contenedor {
     width: 95vw;
     height: 45vw;
-    border: 0.5vw solid gray;
+
     display: grid;
 }
 
@@ -105,8 +105,7 @@
     opacity: 70%;
 }
 
-#menulist:checked + .main{
-    display: none;
+#menulist:checked + .menu .main{
     opacity: 0%;
 }
 
