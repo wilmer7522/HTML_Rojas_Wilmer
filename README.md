@@ -1,10 +1,15 @@
-# Título del Proyecto
+# HTML y CSS
 
-_Acá va un párrafo que describa lo que es el proyecto_
+_Ejercicios de HTML y CSS_
+
+
+## Descripción general
+
+_Ejercicios de HTML y CSS para aprender a usar desde transiciones, Animaciones, Menu Hamburguesa, entre otros._
 
 ## Comenzando 🚀
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+_Para obtener los proyectos debes descargar e instalar Git, y luego hacer un "git clone https://github.com/wilmer7522/HTML_Rojas_Wilmer.git" y el enlace del repositorio ._
 
 Mira **Deployment** para conocer como desplegar el proyecto.
 
@@ -14,9 +19,10 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 _Que cosas necesitas para instalar el software y como instalarlas_
 
 ```
-Da un ejemplo
+Descargar Git https://git-scm.com/
+Visual Studio Code https://code.visualstudio.com/
 ```
-
+<!--
 ### Instalación 🔧
 
 _Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
@@ -58,14 +64,38 @@ Da un ejemplo
 ## Despliegue 📦
 
 _Agrega notas adicionales sobre como hacer deploy_
+-->
 
 ## Construido con 🛠️
 
 _Menciona las herramientas que utilizaste para crear tu proyecto_
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
+* [HTML]
+* [CSS]
+* [Git]
+
+## Ejercios 
+
+[Dia 1](Dia1)
+
+[Dia 2](Dias2)
+
+[Dia 3](Dias3)
+
+[Dia 4](Dia4)
+
+[Dia 5](Dia5)
+
+[Dia 6](Dia6)
+
+[Dia 7](Dia7)
+
+[Dia 8](Dia8)
+
+[Dia 9](Dia9)
+
+[Dia 10](Dia10)
+
 
 
 
